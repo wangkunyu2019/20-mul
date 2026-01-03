@@ -8,7 +8,9 @@ input.onButtonPressed(Button.A, function () {
     basic.showNumber(a)
 })
 input.onButtonPressed(Button.AB, function () {
-    basic.showNumber(a * b)
+    for (let index = 0; index < 100; index++) {
+        basic.showNumber(a * b)
+    }
 })
 input.onButtonPressed(Button.B, function () {
     b += 1
